@@ -1,0 +1,91 @@
+<html>
+    <head>
+        <title>formulaire</title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <nav dir="ltl">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+        </nav>
+        <h1>my first web site</h1>
+        <br><br>
+
+     <p>In this exercise, you will add styling to the Home and About pages.
+        You will create a stylesheet in the ContosoConf project. Then you will add CSS rules to style the Home and
+        About pages to match a specified design. Finally, you will run the web application and verify that the
+        pages are styled correctly.
+        The main tasks for this exercise</p>
+
+        <article>
+            <ul>
+                <li>
+                    <img src="img2.jpeg" alt="photo1">
+                    eyes
+                </li>
+                <li>
+                    <img height="200px" width="400px" src="img1.png" alt="photo1">
+                    <p>capture</p>
+                </li>
+                
+            </ul>
+        </article>
+        <dl>
+            <dt>Sir Tim Berners Lee</dt>
+            <dd>Invented HTML and wrote WorldWideWeb</dd>
+            <dt>Linus Torvalds</dt>
+            <dd>Originator of Linux</dd>
+            <dt>Charles Herzfeld</dt>
+            <dd>Authorized the creation of ARPANET, the predecessor of the Internet</dd>
+            </dl>
+            <hr>
+            <p>islem</p>
+
+            <hr>
+            <div class="formulaire">
+            <form action="affichage.php" method="post">
+
+                <div class="title-form">
+                    <h1>Formulaire From Scratch</h1>
+                </div>
+                <div class="part1">
+                    <div class="first">
+                    <label for="name"> Nom : </label><br><input type="text" name="nom" class="nom-part1" placeholder="enter votre nom et prenom">
+                    <br><br>
+                    <label for="prenom">password : </label><br><input type="password" name="pass" clas="pass-part1"><br>
+                </div>
+                    <fieldset>
+                <legend>choix multiple</legend>
+                    <input type="checkbox" name="check-part1" value="fruits"> <label for="fruits">fruits</label><br>
+                    <input type="checkbox" name="check-part1" value="legume"> <label for="fruits">legume</label><br>
+                    <input type="checkbox" name="check-part1" value="chocolat"> <label for="fruits">chocolat</label><br>
+                </fieldset>
+                <fieldset>
+                    <legend>choisit votre categorie</legend>
+                    <label for="1">-15</label><input type="radio" name="radio-part1" value="-15"><br>
+                    <label for="1">>15</label><input type="radio" name="radio-part1" value=">15"><br>
+                    <label for="1">>20</label><input type="radio" name="radio-part1" value=">20"><br>
+                </fieldset>
+                <fieldset>
+                    <legend>choisit votre couleur prefere ainsi votre poids</legend>
+                    <label for="">votre couleur </label><input type="color" name="couleur"><br>
+                    <label for="">date naissance </label><input type="date" name="naissance"><br>
+                    <label for="">votre poids </label><input type="range" min="50" max="120" value="0"><br>
+                </fieldset>
+                <fieldset class="contact">
+                    <legend>Contacts</legend>
+                    <label for="">votre numero </label><input type="tel" name="numero"><br><br>
+                    <label for="">vitre mail </label><input type="email" name="mail"><br>
+                </fieldset>
+                </div>
+
+                <div class="btn">
+                    <button> valid</button>
+                </div>
+
+            </form>
+        </div>
+        
+    </body>
+</html>
